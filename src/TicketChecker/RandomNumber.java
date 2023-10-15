@@ -1,6 +1,6 @@
 package TicketChecker;
 import java.util.Random;
-//Generuoja atsitiktinius blietus, kol randa laimingą
+//Generuoja atsitiktinius bilietus, kol randa laimingą
 public class RandomNumber {
     public static void main(String[] args) {
         boolean isLucky = false;
