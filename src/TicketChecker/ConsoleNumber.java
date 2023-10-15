@@ -7,7 +7,7 @@ public class ConsoleNumber {
         System.out.println("Įveskite bilieto numerį: ");
         Scanner scanner = new Scanner(System.in);
         String in = scanner.nextLine();
-        while (in.length() != 6) {
+        while (in.length() != 6 || !in.matches("[0-9]+")) {
             System.out.println("Netinkamas numeris. Bandykite dar kartą: ");
             in = scanner.nextLine();
         }
